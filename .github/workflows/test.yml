@@ -1,24 +1,33 @@
 name: CI
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron:  '0 0 * * *'
+
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
+
     - name: fetch submodules
       run: git submodule update --init --depth 1
+
     - name: build d8
-      run: make
-    - name: mkdir artifacts
-      run: mkdir -p ./artifacts/
-    - name: capture symbols
-      run: nm ./out/v8/v8/out/x64.release/d8 | grep v8dbg_ | sort > ./artifacts/symbols
-    - name: copy d8
-      run: cp ./out/v8/v8/out/x64.release/d8 ./artifacts/
+      run: make current-symbols
+
+  upload-artifacts:
+    needs: build
+
+    steps:
+    - name: collect artifacts
+      run: make artifacts
+
     - name: upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
@@ -26,3 +35,25 @@ jobs:
         name: d8
         # Directory containing files to upload
         path: ./artifacts/
+
+  update-repo:
+    needs: build
+    steps:
+    - name: check if symbols mismatch
+      run: make run
+      env:
+        GITHUB_RUN_ID: ${{ github.run_id }}
+        GITHUB_REPO: ${{ github.repository }}
+
+    - uses: stefanzweifel/git-auto-commit-action@v3.0.0
+      with:
+        commit_message: ${{ env.V8_VERSION }} @ ${{ env.V8_COMMIT }}
+
+        file_pattern: postmortem/
+
+    - uses: JasonEtco/create-an-issue@master
+      if: ${{ env.V8_UPDATED_SYMBOLS == 'true'}}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: create-issue
