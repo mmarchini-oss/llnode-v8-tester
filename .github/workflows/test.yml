@@ -9,19 +9,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
+    - name: fetch submodules
       run: git submodule update --init --depth 1
-    - name: Run a one-line script
+    - name: build d8
       run: make
-    - name: Run a multi-line script
-      run: ./out/v8/v8/x64.release/d8 -e 'console.log("foo")'
-    - name: Make artifacts directory
+    - name: mkdir artifacts
       run: make artifacts
-    - name: Run a multi-line script
+    - name: capture symbols
       run: nm ./out/v8/v8/x64.release/d8 | grep v8dbg_ | sort > artifacts/symbols
-    - name: Run a multi-line script
-      run: cp ./out/v8/v8/x64.release/d8
-    - name: Upload artifact
+    - name: copy d8
+      run: cp ./out/v8/v8/out/x64.release/d8
+    - name: upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
         # Artifact name
