@@ -22,6 +22,7 @@ jobs:
       run: make current-symbols
 
   upload-artifacts:
+    runs-on: ubuntu-latest
     needs: build
 
     steps:
@@ -37,6 +38,7 @@ jobs:
         path: ./artifacts/
 
   update-repo:
+    runs-on: ubuntu-latest
     needs: build
     steps:
     - name: check if symbols mismatch
@@ -52,7 +54,7 @@ jobs:
         file_pattern: postmortem/
 
     - uses: JasonEtco/create-an-issue@master
-      if: ${{ env.V8_UPDATED_SYMBOLS == 'true'}}
+      if: env.V8_UPDATED_SYMBOLS == 'true'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
