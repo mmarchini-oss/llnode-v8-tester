@@ -21,7 +21,7 @@ jobs:
       # run: nm ./out/v8/v8/out/x64.release/d8 | grep v8dbg_ | sort > ./artifacts/symbols
       run: echo "foo" > ./artifacts/symbols
     - name: copy d8
-      run: cp ./out/v8/v8/out/x64.release/d8
+      run: cp ./out/v8/v8/out/x64.release/d8 ./artifacts/
     - name: upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
