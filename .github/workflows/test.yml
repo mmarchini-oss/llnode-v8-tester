@@ -10,6 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run a one-line script
+      run: git submodule update --init --depth 1
+    - name: Run a one-line script
       run: make
     - name: Run a multi-line script
       run: ./out/v8/v8/x64.release/d8 -e 'console.log("foo")'
