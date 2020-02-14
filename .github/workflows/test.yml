@@ -11,12 +11,15 @@ jobs:
     - uses: actions/checkout@v2
     - name: fetch submodules
       run: git submodule update --init --depth 1
-    - name: build d8
-      run: make
+    # - name: build d8
+      # run: make
+    - name: foo
+      run: mkdir -p ./out/v8/v8/out/x64.release && touch ./out/v8/v8/out/x64.release/d8
     - name: mkdir artifacts
       run: mkdir -p ./artifacts/
     - name: capture symbols
-      run: nm ./out/v8/v8/x64.release/d8 | grep v8dbg_ | sort > ./artifacts/symbols
+      # run: nm ./out/v8/v8/out/x64.release/d8 | grep v8dbg_ | sort > ./artifacts/symbols
+      run: echo "foo" > ./artifacts/symbols
     - name: copy d8
       run: cp ./out/v8/v8/out/x64.release/d8
     - name: upload artifact
