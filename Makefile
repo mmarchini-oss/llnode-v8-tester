@@ -26,5 +26,5 @@ run: d8 current-symbols run.sh
 .PHONY: artifacts
 artifacts: d8 current-symbols
 	mkdir -p ./artifacts/
-	cp currenty-symbols ./artifacts/
+	cp current-symbols ./artifacts/
 	cp ./d8 ./artifacts/
