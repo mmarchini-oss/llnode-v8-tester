@@ -1,0 +1,10 @@
+--- postmortem/8.2.0/2020-03-02/symbols	2020-03-03 00:15:59.090583849 +0000
++++ postmortem/8.2.0/2020-03-03/symbols	2020-03-03 00:53:45.783413541 +0000
+@@ -163,6 +163,7 @@
+ v8dbg_frametype_StubFrame
+ v8dbg_frametype_WasmCompileLazyFrame
+ v8dbg_frametype_WasmCompiledFrame
++v8dbg_frametype_WasmDebugBreakFrame
+ v8dbg_frametype_WasmExitFrame
+ v8dbg_frametype_WasmInterpreterEntryFrame
+ v8dbg_frametype_WasmToJsFrame
