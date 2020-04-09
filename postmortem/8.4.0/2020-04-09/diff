@@ -1,0 +1,10 @@
+--- postmortem/8.4.0/2020-04-07/symbols	2020-04-09 00:11:05.008237322 +0000
++++ postmortem/8.4.0/2020-04-09/symbols	2020-04-09 00:46:42.084598544 +0000
+@@ -372,7 +372,6 @@
+ v8dbg_type_JSDate__JS_DATE_TYPE
+ v8dbg_type_JSDisplayNames__JS_DISPLAY_NAMES_TYPE
+ v8dbg_type_JSError__JS_ERROR_TYPE
+-v8dbg_type_JSFinalizationRegistryCleanupIterator__JS_FINALIZATION_REGISTRY_CLEANUP_ITERATOR_TYPE
+ v8dbg_type_JSFinalizationRegistry__JS_FINALIZATION_REGISTRY_TYPE
+ v8dbg_type_JSFunction__JS_FUNCTION_TYPE
+ v8dbg_type_JSGlobalObject__JS_GLOBAL_OBJECT_TYPE
