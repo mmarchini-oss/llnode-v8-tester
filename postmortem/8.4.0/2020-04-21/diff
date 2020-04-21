@@ -1,0 +1,28 @@
+--- postmortem/8.4.0/2020-04-20/symbols	2020-04-21 00:15:42.673583588 +0000
++++ postmortem/8.4.0/2020-04-21/symbols	2020-04-21 00:59:14.460480010 +0000
+@@ -59,7 +59,6 @@
+ v8dbg_class_DescriptorArray__enum_cache__EnumCache
+ v8dbg_class_DescriptorArray__header_size__uintptr_t
+ v8dbg_class_ExternalString__resource__Object
+-v8dbg_class_FixedArrayBase__length__SMI
+ v8dbg_class_FixedArray__data__uintptr_t
+ v8dbg_class_HeapNumber__value__double
+ v8dbg_class_HeapObject__map__Map
+@@ -152,9 +151,6 @@
+ v8dbg_class_ThinString__actual__String
+ v8dbg_class_UncompiledData__end_position__int32_t
+ v8dbg_class_UncompiledData__start_position__int32_t
+-v8dbg_class_WeakArrayList__capacity__SMI
+-v8dbg_class_WeakArrayList__length__SMI
+-v8dbg_class_WeakFixedArray__length__SMI
+ v8dbg_context_idx_prev
+ v8dbg_context_idx_scope_info
+ v8dbg_context_min_slots
+@@ -358,6 +354,7 @@
+ v8dbg_type_InternalClass__INTERNAL_CLASS_TYPE
+ v8dbg_type_InternalizedString__ONE_BYTE_INTERNALIZED_STRING_TYPE
+ v8dbg_type_InterpreterData__INTERPRETER_DATA_TYPE
++v8dbg_type_JSAggregateError__JS_AGGREGATE_ERROR_TYPE
+ v8dbg_type_JSArgumentsObject__JS_ARGUMENTS_OBJECT_TYPE
+ v8dbg_type_JSArrayBuffer__JS_ARRAY_BUFFER_TYPE
+ v8dbg_type_JSArrayIterator__JS_ARRAY_ITERATOR_TYPE
