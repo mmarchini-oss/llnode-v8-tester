@@ -1,0 +1,18 @@
+--- postmortem/8.4.0/2020-04-21/symbols	2020-04-22 00:12:41.908550667 +0000
++++ postmortem/8.4.0/2020-04-22/symbols	2020-04-22 00:54:32.708056165 +0000
+@@ -116,6 +116,7 @@
+ v8dbg_class_Map__prototype_validity_cell__Object
+ v8dbg_class_Map__raw_transitions__weak
+ v8dbg_class_Map__synchronized_instance_descriptors__DescriptorArray
++v8dbg_class_Map__wasm_type_info__Foreign
+ v8dbg_class_Oddball__kind_offset__int
+ v8dbg_class_Script__column_offset__SMI
+ v8dbg_class_Script__context_data__Object
+@@ -442,6 +443,7 @@
+ v8dbg_type_WasmJSFunctionData__WASM_JS_FUNCTION_DATA_TYPE
+ v8dbg_type_WasmMemoryObject__WASM_MEMORY_OBJECT_TYPE
+ v8dbg_type_WasmModuleObject__WASM_MODULE_OBJECT_TYPE
++v8dbg_type_WasmStruct__WASM_STRUCT_TYPE
+ v8dbg_type_WasmTableObject__WASM_TABLE_OBJECT_TYPE
+ v8dbg_type_WasmValue__WASM_VALUE_TYPE
+ v8dbg_type_WeakArrayList__WEAK_ARRAY_LIST_TYPE
