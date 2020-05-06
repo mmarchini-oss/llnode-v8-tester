@@ -1,0 +1,11 @@
+--- postmortem/8.4.0/2020-05-04/symbols	2020-05-06 00:15:54.090310404 +0000
++++ postmortem/8.4.0/2020-05-06/symbols	2020-05-06 00:58:30.017970663 +0000
+@@ -308,6 +308,8 @@
+ v8dbg_scopeinfo_idx_nparams
+ v8dbg_simplenumberdictionaryshape_entry_size
+ v8dbg_simplenumberdictionaryshape_prefix_size
++v8dbg_type_AbstractInternalClassSubclass1__ABSTRACT_INTERNAL_CLASS_SUBCLASS1_TYPE
++v8dbg_type_AbstractInternalClassSubclass2__ABSTRACT_INTERNAL_CLASS_SUBCLASS2_TYPE
+ v8dbg_type_AccessCheckInfo__ACCESS_CHECK_INFO_TYPE
+ v8dbg_type_AccessorInfo__ACCESSOR_INFO_TYPE
+ v8dbg_type_AccessorPair__ACCESSOR_PAIR_TYPE
