@@ -1,0 +1,10 @@
+--- postmortem/8.4.0/2020-05-06/symbols	2020-05-07 00:14:41.879053875 +0000
++++ postmortem/8.4.0/2020-05-07/symbols	2020-05-07 00:57:53.777336142 +0000
+@@ -179,7 +179,6 @@
+ v8dbg_frametype_WasmCompiledFrame
+ v8dbg_frametype_WasmDebugBreakFrame
+ v8dbg_frametype_WasmExitFrame
+-v8dbg_frametype_WasmInterpreterEntryFrame
+ v8dbg_frametype_WasmToJsFrame
+ v8dbg_globaldictionaryshape_entry_size
+ v8dbg_jsarray_buffer_was_detached_mask
