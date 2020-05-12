@@ -1,0 +1,37 @@
+--- postmortem/8.4.0/2020-05-11/symbols	2020-05-12 00:19:36.700690774 +0000
++++ postmortem/8.4.0/2020-05-12/symbols	2020-05-12 01:00:43.057208310 +0000
+@@ -56,7 +56,6 @@
+ v8dbg_class_DataHandler__data3__weak
+ v8dbg_class_DataHandler__smi_handler__Object
+ v8dbg_class_DataHandler__validity_cell__Object
+-v8dbg_class_DescriptorArray__enum_cache__EnumCache
+ v8dbg_class_DescriptorArray__header_size__uintptr_t
+ v8dbg_class_ExternalString__resource__Object
+ v8dbg_class_FixedArray__data__uintptr_t
+@@ -64,7 +63,6 @@
+ v8dbg_class_HeapObject__map__Map
+ v8dbg_class_InterpreterData__bytecode_array__BytecodeArray
+ v8dbg_class_InterpreterData__interpreter_trampoline__Code
+-v8dbg_class_JSArrayBufferView__buffer__Object
+ v8dbg_class_JSArrayBufferView__byte_length__size_t
+ v8dbg_class_JSArrayBufferView__byte_offset__size_t
+ v8dbg_class_JSArrayBuffer__backing_store__uintptr_t
+@@ -96,7 +94,6 @@
+ v8dbg_class_JSReceiver__raw_properties_or_hash__Object
+ v8dbg_class_JSRegExp__last_index__Object
+ v8dbg_class_JSRegExp__source__Object
+-v8dbg_class_JSTypedArray__base_pointer__Object
+ v8dbg_class_JSTypedArray__external_pointer__uintptr_t
+ v8dbg_class_JSTypedArray__length__Object
+ v8dbg_class_Map__bit_field2__char
+@@ -176,9 +173,9 @@
+ v8dbg_frametype_OptimizedFrame
+ v8dbg_frametype_StubFrame
+ v8dbg_frametype_WasmCompileLazyFrame
+-v8dbg_frametype_WasmCompiledFrame
+ v8dbg_frametype_WasmDebugBreakFrame
+ v8dbg_frametype_WasmExitFrame
++v8dbg_frametype_WasmFrame
+ v8dbg_frametype_WasmToJsFrame
+ v8dbg_globaldictionaryshape_entry_size
+ v8dbg_jsarray_buffer_was_detached_mask
