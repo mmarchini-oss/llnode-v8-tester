@@ -1,0 +1,10 @@
+--- postmortem/8.4.0/2020-05-15/symbols	2020-05-16 00:16:27.386127423 +0000
++++ postmortem/8.5.0/2020-05-16/symbols	2020-05-16 01:01:41.407844591 +0000
+@@ -148,6 +148,7 @@
+ v8dbg_class_Symbol__name__Object
+ v8dbg_class_ThinString__actual__String
+ v8dbg_class_UncompiledData__end_position__int32_t
++v8dbg_class_UncompiledData__inferred_name__String
+ v8dbg_class_UncompiledData__start_position__int32_t
+ v8dbg_context_idx_prev
+ v8dbg_context_idx_scope_info
