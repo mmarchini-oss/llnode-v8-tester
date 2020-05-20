@@ -1,0 +1,22 @@
+--- postmortem/8.5.0/2020-05-19/symbols	2020-05-20 00:16:46.209415352 +0000
++++ postmortem/8.5.0/2020-05-20/symbols	2020-05-20 00:59:59.898964688 +0000
+@@ -115,19 +115,8 @@
+ v8dbg_class_Map__synchronized_instance_descriptors__DescriptorArray
+ v8dbg_class_Map__wasm_type_info__Foreign
+ v8dbg_class_Oddball__kind_offset__int
+-v8dbg_class_Script__column_offset__SMI
+-v8dbg_class_Script__context_data__Object
+ v8dbg_class_Script__eval_from_position__SMI
+ v8dbg_class_Script__eval_from_shared_or_wrapped_arguments__Object
+-v8dbg_class_Script__flags__SMI
+-v8dbg_class_Script__host_defined_options__FixedArray
+-v8dbg_class_Script__id__SMI
+-v8dbg_class_Script__line_ends__Object
+-v8dbg_class_Script__line_offset__SMI
+-v8dbg_class_Script__name__Object
+-v8dbg_class_Script__source__Object
+-v8dbg_class_Script__source_mapping_url__Object
+-v8dbg_class_Script__source_url__Object
+ v8dbg_class_Script__type__SMI
+ v8dbg_class_Script__wasm_breakpoint_infos__FixedArray
+ v8dbg_class_Script__wasm_managed_native_module__Object
