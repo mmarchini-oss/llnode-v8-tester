@@ -1,0 +1,10 @@
+--- postmortem/8.5.0/2020-05-21/symbols	2020-05-23 00:31:45.680163004 +0000
++++ postmortem/8.5.0/2020-05-23/symbols	2020-05-23 01:11:29.518845664 +0000
+@@ -388,6 +388,7 @@
+ v8dbg_type_Map__MAP_TYPE
+ v8dbg_type_ObjectTemplateInfo__OBJECT_TEMPLATE_INFO_TYPE
+ v8dbg_type_Oddball__ODDBALL_TYPE
++v8dbg_type_OnHeapBasicBlockProfilerData__ON_HEAP_BASIC_BLOCK_PROFILER_DATA_TYPE
+ v8dbg_type_PreparseData__PREPARSE_DATA_TYPE
+ v8dbg_type_PromiseCapability__PROMISE_CAPABILITY_TYPE
+ v8dbg_type_PromiseFulfillReactionJobTask__PROMISE_FULFILL_REACTION_JOB_TASK_TYPE
