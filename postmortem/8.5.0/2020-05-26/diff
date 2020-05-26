@@ -1,0 +1,10 @@
+--- postmortem/8.5.0/2020-05-25/symbols	2020-05-26 00:32:15.885996354 +0000
++++ postmortem/8.5.0/2020-05-26/symbols	2020-05-26 01:13:14.675904639 +0000
+@@ -406,6 +406,7 @@
+ v8dbg_type_SharedFunctionInfo__SHARED_FUNCTION_INFO_TYPE
+ v8dbg_type_SlicedString__SLICED_ONE_BYTE_STRING_TYPE
+ v8dbg_type_SlicedString__SLICED_STRING_TYPE
++v8dbg_type_SloppyArgumentsElements__SLOPPY_ARGUMENTS_ELEMENTS_TYPE
+ v8dbg_type_SmallOrderedHashMap__SMALL_ORDERED_HASH_MAP_TYPE
+ v8dbg_type_SmallOrderedHashSet__SMALL_ORDERED_HASH_SET_TYPE
+ v8dbg_type_SmallOrderedNameDictionary__SMALL_ORDERED_NAME_DICTIONARY_TYPE
