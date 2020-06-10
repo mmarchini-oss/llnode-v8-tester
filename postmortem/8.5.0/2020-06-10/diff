@@ -1,0 +1,10 @@
+--- postmortem/8.5.0/2020-06-09/symbols	2020-06-10 00:28:10.674419984 +0000
++++ postmortem/8.5.0/2020-06-10/symbols	2020-06-10 01:07:30.728370346 +0000
+@@ -424,7 +424,6 @@
+ v8dbg_type_UncompiledDataWithoutPreparseData__UNCOMPILED_DATA_WITHOUT_PREPARSE_DATA_TYPE
+ v8dbg_type_WasmArray__WASM_ARRAY_TYPE
+ v8dbg_type_WasmCapiFunctionData__WASM_CAPI_FUNCTION_DATA_TYPE
+-v8dbg_type_WasmDebugInfo__WASM_DEBUG_INFO_TYPE
+ v8dbg_type_WasmExceptionObject__WASM_EXCEPTION_OBJECT_TYPE
+ v8dbg_type_WasmExceptionTag__WASM_EXCEPTION_TAG_TYPE
+ v8dbg_type_WasmExportedFunctionData__WASM_EXPORTED_FUNCTION_DATA_TYPE
