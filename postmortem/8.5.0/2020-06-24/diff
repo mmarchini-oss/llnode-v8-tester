@@ -1,0 +1,10 @@
+--- postmortem/8.5.0/2020-06-23/symbols	2020-06-24 00:28:29.761584413 +0000
++++ postmortem/8.5.0/2020-06-24/symbols	2020-06-24 01:17:49.828538141 +0000
+@@ -325,6 +325,7 @@
+ v8dbg_type_DescriptorArray__DESCRIPTOR_ARRAY_TYPE
+ v8dbg_type_EmbedderDataArray__EMBEDDER_DATA_ARRAY_TYPE
+ v8dbg_type_EnumCache__ENUM_CACHE_TYPE
++v8dbg_type_ExportedSubClass2__EXPORTED_SUB_CLASS2_TYPE
+ v8dbg_type_ExportedSubClass__EXPORTED_SUB_CLASS_TYPE
+ v8dbg_type_ExternalOneByteString__EXTERNAL_ONE_BYTE_STRING_TYPE
+ v8dbg_type_ExternalTwoByteString__EXTERNAL_STRING_TYPE
