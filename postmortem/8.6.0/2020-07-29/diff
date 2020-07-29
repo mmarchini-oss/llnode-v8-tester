@@ -1,0 +1,11 @@
+--- postmortem/8.6.0/2020-07-28/symbols	2020-07-29 00:39:18.822024058 +0000
++++ postmortem/8.6.0/2020-07-29/symbols	2020-07-29 01:22:48.006174536 +0000
+@@ -73,8 +73,6 @@
+ v8dbg_class_JSArray__length__Object
+ v8dbg_class_JSDate__value__Object
+ v8dbg_class_JSFunction__context__Context
+-v8dbg_class_JSFunction__prototype_or_initial_map__HeapObject
+-v8dbg_class_JSFunction__raw_feedback_cell__FeedbackCell
+ v8dbg_class_JSFunction__shared__SharedFunctionInfo
+ v8dbg_class_JSGlobalObject__global_proxy__JSGlobalProxy
+ v8dbg_class_JSGlobalObject__native_context__NativeContext
