@@ -1,0 +1,10 @@
+--- postmortem/8.6.0/2020-07-30/symbols	2020-07-31 00:41:36.851866667 +0000
++++ postmortem/8.6.0/2020-07-31/symbols	2020-07-31 01:22:00.591497124 +0000
+@@ -374,6 +374,7 @@
+ v8dbg_type_JSRelativeTimeFormat__JS_RELATIVE_TIME_FORMAT_TYPE
+ v8dbg_type_JSSegmentIterator__JS_SEGMENT_ITERATOR_TYPE
+ v8dbg_type_JSSegmenter__JS_SEGMENTER_TYPE
++v8dbg_type_JSSegments__JS_SEGMENTS_TYPE
+ v8dbg_type_JSSet__JS_SET_TYPE
+ v8dbg_type_JSStringIterator__JS_STRING_ITERATOR_TYPE
+ v8dbg_type_JSTypedArray__JS_TYPED_ARRAY_TYPE
