@@ -1,0 +1,11 @@
+--- postmortem/8.7.0/2020-09-08/symbols	2020-09-09 00:53:04.250836107 +0000
++++ postmortem/8.7.0/2020-09-09/symbols	2020-09-09 01:36:22.725264773 +0000
+@@ -45,7 +45,7 @@
+ v8dbg_class_AllocationSite__weak_next__Object
+ v8dbg_class_BytecodeArray__constant_pool__FixedArray
+ v8dbg_class_BytecodeArray__handler_table__ByteArray
+-v8dbg_class_BytecodeArray__source_position_table__Object
++v8dbg_class_BytecodeArray__synchronized_source_position_table__Object
+ v8dbg_class_CodeDataContainer__next_code_link__Object
+ v8dbg_class_Code__instruction_size__int
+ v8dbg_class_Code__instruction_start__uintptr_t
