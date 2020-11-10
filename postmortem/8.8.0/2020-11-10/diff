@@ -1,0 +1,35 @@
+--- postmortem/8.8.0/2020-11-09/symbols	2020-11-10 00:48:25.388803232 +0000
++++ postmortem/8.8.0/2020-11-10/symbols	2020-11-10 01:34:19.262437602 +0000
+@@ -1,11 +1,15 @@
+ v8dbg_APIObjectType
+ v8dbg_ConsStringTag
++v8dbg_ContextRegister
+ v8dbg_ExternalStringTag
+ v8dbg_FirstContextType
+ v8dbg_FirstNonstringType
+ v8dbg_HeapObjectTag
+ v8dbg_HeapObjectTagMask
++v8dbg_InterpreterBytecodeArrayRegister
++v8dbg_InterpreterBytecodeOffsetRegister
+ v8dbg_IsNotStringMask
++v8dbg_JSFunctionRegister
+ v8dbg_LastContextType
+ v8dbg_OddballArgumentsMarker
+ v8dbg_OddballException
+@@ -17,6 +21,8 @@
+ v8dbg_OddballUndefined
+ v8dbg_OddballUninitialized
+ v8dbg_OneByteStringTag
++v8dbg_ReturnRegister0
++v8dbg_RuntimeCallFunctionRegister
+ v8dbg_SeqStringTag
+ v8dbg_SlicedStringTag
+ v8dbg_SmiShiftSize
+@@ -416,6 +422,7 @@
+ v8dbg_type_SourceTextModule__SOURCE_TEXT_MODULE_TYPE
+ v8dbg_type_StackFrameInfo__STACK_FRAME_INFO_TYPE
+ v8dbg_type_StackTraceFrame__STACK_TRACE_FRAME_TYPE
++v8dbg_type_StrongDescriptorArray__STRONG_DESCRIPTOR_ARRAY_TYPE
+ v8dbg_type_Symbol__SYMBOL_TYPE
+ v8dbg_type_SyntheticModule__SYNTHETIC_MODULE_TYPE
+ v8dbg_type_TemplateObjectDescription__TEMPLATE_OBJECT_DESCRIPTION_TYPE
