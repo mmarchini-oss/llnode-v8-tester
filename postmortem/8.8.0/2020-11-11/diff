@@ -1,0 +1,10 @@
+--- postmortem/8.8.0/2020-11-10/symbols	2020-11-11 00:38:50.423392203 +0000
++++ postmortem/8.8.0/2020-11-11/symbols	2020-11-11 01:23:29.013708218 +0000
+@@ -391,6 +391,7 @@
+ v8dbg_type_JSWeakRef__JS_WEAK_REF_TYPE
+ v8dbg_type_JSWeakSet__JS_WEAK_SET_TYPE
+ v8dbg_type_Map__MAP_TYPE
++v8dbg_type_ModuleRequest__MODULE_REQUEST_TYPE
+ v8dbg_type_ObjectTemplateInfo__OBJECT_TEMPLATE_INFO_TYPE
+ v8dbg_type_Oddball__ODDBALL_TYPE
+ v8dbg_type_OnHeapBasicBlockProfilerData__ON_HEAP_BASIC_BLOCK_PROFILER_DATA_TYPE
