@@ -1,0 +1,10 @@
+--- postmortem/8.9.0/2020-11-13/symbols	2020-11-14 00:43:44.697576900 +0000
++++ postmortem/8.9.0/2020-11-14/symbols	2020-11-14 01:33:52.693576004 +0000
+@@ -82,6 +82,7 @@
+ v8dbg_class_JSFunction__prototype_or_initial_map__HeapObject
+ v8dbg_class_JSFunction__raw_feedback_cell__FeedbackCell
+ v8dbg_class_JSFunction__shared__SharedFunctionInfo
++v8dbg_class_JSGlobalObject__global_dictionary__GlobalDictionary
+ v8dbg_class_JSGlobalObject__global_proxy__JSGlobalProxy
+ v8dbg_class_JSGlobalObject__native_context__NativeContext
+ v8dbg_class_JSIteratorResult__done__Object
